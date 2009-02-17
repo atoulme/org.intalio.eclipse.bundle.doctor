@@ -27,7 +27,7 @@ import com.intalio.bpms.designer.bundle.internal.BundleManager;
 public class BundlePlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "com.intalio.bpms.designer.bundle"; //$NON-NLS-1$
+	public static final String PLUGIN_ID = "org.intalio.eclipse.bundle.doctor"; //$NON-NLS-1$
 
 	// The shared instance
 	private static BundlePlugin plugin;
