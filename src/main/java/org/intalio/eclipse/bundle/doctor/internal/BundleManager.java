@@ -12,7 +12,7 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.internal;
+package org.intalio.eclipse.bundle.doctor.internal;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,6 +26,7 @@ import org.eclipse.core.runtime.Platform;
 import org.eclipse.equinox.internal.provisional.frameworkadmin.BundleInfo;
 import org.eclipse.equinox.internal.provisional.frameworkadmin.BundlesState;
 import org.eclipse.equinox.internal.provisional.frameworkadmin.FrameworkAdmin;
+import org.intalio.eclipse.bundle.doctor.IBundleManager;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.BundleException;
@@ -33,7 +34,6 @@ import org.osgi.service.packageadmin.PackageAdmin;
 import org.osgi.service.packageadmin.RequiredBundle;
 import org.osgi.util.tracker.ServiceTracker;
 
-import com.intalio.bpms.designer.bundle.IBundleManager;
 
 /**
  * The BundleInfo is the object that contains the bundles.

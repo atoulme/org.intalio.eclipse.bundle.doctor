@@ -12,13 +12,13 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.view;
+package org.intalio.eclipse.bundle.doctor.view;
 
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;
+import org.intalio.eclipse.bundle.doctor.IBundleManager;
 import org.osgi.service.packageadmin.RequiredBundle;
 
-import com.intalio.bpms.designer.bundle.IBundleManager;
 
 /**
  * A content provider to provide a list of the current bundles.

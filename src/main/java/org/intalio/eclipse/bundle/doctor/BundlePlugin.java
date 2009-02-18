@@ -12,14 +12,14 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle;
+package org.intalio.eclipse.bundle.doctor;
 
 
 import org.eclipse.jface.resource.ImageRegistry;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.intalio.eclipse.bundle.doctor.internal.BundleManager;
 import org.osgi.framework.BundleContext;
 
-import com.intalio.bpms.designer.bundle.internal.BundleManager;
 
 /**
  * The activator class controls the plug-in life cycle

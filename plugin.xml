@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.ui.views">
       <view
-            class="com.intalio.bpms.designer.bundle.view.BundleView"
+            class="org.intalio.eclipse.bundle.doctor.view.BundleView"
             id="com.intalio.bpms.designer.bundle.view"
             name="Bundle Monitor"
             restorable="true">

@@ -12,7 +12,7 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle;
+package org.intalio.eclipse.bundle.doctor;
 
 import java.util.Collection;
 

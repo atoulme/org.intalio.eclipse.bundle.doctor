@@ -12,7 +12,7 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.view;
+package org.intalio.eclipse.bundle.doctor.view;
 
 import org.eclipse.jface.viewers.ILabelProvider;
 import org.eclipse.jface.viewers.LabelProvider;
@@ -20,10 +20,10 @@ import org.eclipse.osgi.framework.internal.core.AbstractBundle;
 import org.eclipse.osgi.framework.internal.core.BundleFragment;
 import org.eclipse.osgi.util.NLS;
 import org.eclipse.swt.graphics.Image;
+import org.intalio.eclipse.bundle.doctor.BundlePlugin;
 import org.osgi.framework.Bundle;
 import org.osgi.service.packageadmin.RequiredBundle;
 
-import com.intalio.bpms.designer.bundle.BundlePlugin;
 
 /**
  * the label provider for bundles.

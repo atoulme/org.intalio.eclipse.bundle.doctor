@@ -11,11 +11,11 @@
  * Date         Author             Changes
  * Feb 17, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.view;
+package org.intalio.eclipse.bundle.doctor.view;
 
+import org.intalio.eclipse.bundle.doctor.BundlePlugin;
 import org.osgi.service.packageadmin.RequiredBundle;
 
-import com.intalio.bpms.designer.bundle.BundlePlugin;
 
 /**
  * A tree node to represent intermediate nodes, currently the fragments

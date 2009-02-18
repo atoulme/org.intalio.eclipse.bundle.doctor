@@ -11,7 +11,7 @@
  * Date         Author             Changes
  * Feb 16, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.view;
+package org.intalio.eclipse.bundle.doctor.view;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.MenuManager;
@@ -33,13 +33,13 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.internal.misc.StringMatcher;
 import org.eclipse.ui.part.ViewPart;
+import org.intalio.eclipse.bundle.doctor.BundlePlugin;
+import org.intalio.eclipse.bundle.doctor.IBundleManager;
+import org.intalio.eclipse.bundle.doctor.wizard.InstallWizard;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleException;
 import org.osgi.service.packageadmin.RequiredBundle;
 
-import com.intalio.bpms.designer.bundle.BundlePlugin;
-import com.intalio.bpms.designer.bundle.IBundleManager;
-import com.intalio.bpms.designer.bundle.wizard.InstallWizard;
 
 /**
  * A view showing the bundles of the running instance.

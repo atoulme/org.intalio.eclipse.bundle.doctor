@@ -11,7 +11,7 @@
  * Date         Author             Changes
  * Feb 17, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.wizard;
+package org.intalio.eclipse.bundle.doctor.wizard;
 
 import java.net.URL;
 
@@ -31,8 +31,8 @@ import org.eclipse.ui.forms.ManagedForm;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.ui.forms.widgets.TableWrapData;
 import org.eclipse.ui.forms.widgets.TableWrapLayout;
+import org.intalio.eclipse.bundle.doctor.BundlePlugin;
 
-import com.intalio.bpms.designer.bundle.BundlePlugin;
 
 /**
  * The first page of the installation wizard.

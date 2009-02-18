@@ -11,7 +11,7 @@
  * Date         Author             Changes
  * Feb 17, 2009      Antoine Toulme     Created
  */
-package com.intalio.bpms.designer.bundle.wizard;
+package org.intalio.eclipse.bundle.doctor.wizard;
 
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.jface.wizard.Wizard;
