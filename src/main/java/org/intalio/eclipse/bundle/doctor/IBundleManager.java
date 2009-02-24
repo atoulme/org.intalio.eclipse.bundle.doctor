@@ -35,7 +35,10 @@ import org.osgi.service.packageadmin.RequiredBundle;
 public interface IBundleManager {
 
     /**
-     * @return all the bundles currently installed in this instance.
+     * @return all the bundles currently installed in this instance, plus all
+     * those that aren't installed but are present in the dropins.
+     * 
+     * This method is expensive and should be called with caution.
      */
     public Collection<RequiredBundle> getAllBundles();
 

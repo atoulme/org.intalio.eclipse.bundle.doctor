@@ -86,6 +86,8 @@ public class BundlePlugin extends AbstractUIPlugin {
                 imageDescriptorFromPlugin(PLUGIN_ID, "icons/obj16/frgmt_obj.gif"));
         reg.put("icons/obj16/plugin_obj.gif", 
                 imageDescriptorFromPlugin(PLUGIN_ID, "icons/obj16/plugin_obj.gif"));
+        reg.put("icons/obj16/refresh.gif",
+                imageDescriptorFromPlugin(PLUGIN_ID, "icons/obj16/refresh.gif"));
     }
 
 }

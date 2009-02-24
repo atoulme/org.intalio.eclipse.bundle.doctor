@@ -14,6 +14,7 @@
 package org.intalio.eclipse.bundle.doctor.view;
 
 import org.intalio.eclipse.bundle.doctor.BundlePlugin;
+import org.intalio.eclipse.bundle.doctor.internal.ManifestBasedBundle;
 import org.osgi.service.packageadmin.RequiredBundle;
 
 
@@ -41,11 +42,16 @@ public class TreeNode {
      * @return its children depending on its type.
      */
     public Object[] getChildren() {
+        if (_bundle instanceof ManifestBasedBundle) {
+            return new Object[] {};
+        }
         switch(_type) {
         case FRAGMENTS:
-            return BundlePlugin.getDefault().getBundleManager().getFragments(_bundle.getBundle()).toArray();
+            return BundlePlugin.getDefault().getBundleManager().
+                getFragments(_bundle.getBundle()).toArray();
         case DEPENDENCIES:
-            return BundlePlugin.getDefault().getBundleManager().getRequiringBundles(_bundle).toArray();
+            return BundlePlugin.getDefault().getBundleManager().
+                getRequiringBundles(_bundle).toArray();
         default:
             throw new IllegalArgumentException("Invalid node type");
         }
